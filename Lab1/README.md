@@ -71,7 +71,12 @@ body {
     - Center the text in each section.
 ```css
 ```
-
+header,nav,article,div,footer {
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+}
 ---
 ### Step 5: Positioning the Layout Using Floats
 - Add the following CSS code to position the layout:
