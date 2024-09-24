@@ -59,7 +59,9 @@ This file contains the structure we will style using CSS.
     - Set font family to Arial for better readability.
 ```css
 ```
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 ---
 ### Step 4: Styling the Header, Nav, Article, Ads, and Footer
 - Add the following CSS rules to style the page sections:
