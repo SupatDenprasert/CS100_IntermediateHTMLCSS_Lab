@@ -86,7 +86,32 @@ header,nav,article,div,footer {
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
 ```
+    header {
+    width: 100%;
+}
 
+nav {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+article {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+div{
+    width: 20%;
+    height: 200px;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+}
 ---
 ### Step 6: Testing the Layout
 - Open the index.html file in a web browser.
