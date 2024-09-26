@@ -91,7 +91,16 @@ nav ul li {
 ### Step 5: Keeping the Navigation Bar Visible
 - Add CSS to position the `nav` element so that the navigation stays fixed while scrolling.
 ```css
-```
+```nav {
+    background-color: #ffa41b;
+    padding-top: 45px;
+    text-align: center;
+    width: 20%;
+    float:left;
+    height: 100dvh;
+    position: fixed;
+    top: 0px;
+}
 
 ---
 ### Step 6: Testing the Layout
